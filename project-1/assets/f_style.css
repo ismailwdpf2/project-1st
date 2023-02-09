@@ -1,0 +1,43 @@
+header{
+    width: 96%;
+    height: 60px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+header img{
+    height: 100%;
+}
+header ul {
+    display: flex;
+    margin: 15px;
+}
+ul li{
+    list-style: none
+}
+ul li a {
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    display:inline-block
+
+}
+.product{
+  width:  80%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: right;
+}
+.sidebar{
+    width: 10%;
+    height: 100%;
+    margin-left: 10px;
+    float: left;
+}
+.sidebar li{
+    vertical-align: middle;
+}
